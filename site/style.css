@@ -26,7 +26,7 @@ html{
 }
 
 .container{
-  width: 60%;
+  width: 70%;
   padding: 0 25px;
   margin: 0 auto;
 }
@@ -62,13 +62,19 @@ a, p, button{
   font-size: 16px;
 }
 
+.tag{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 /* ========= Buttons ========= */
 
 .full a{
-  font-size: 16;
+  font-size: 16px;
   background-color: var(--magenta);
   padding: 12px 28px;
   border-radius: 30px;
+  transition-duration: 0.3s;
 }
 
 .full a:hover{
@@ -83,6 +89,7 @@ a, p, button{
   border-radius: 30px;
   border-color: var(--magenta);
   border-width: 2px;
+  transition-duration: 0.3s;
 }
 
 .stroke a:hover{
@@ -101,6 +108,10 @@ header .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-section ul li a:hover{
+  transition-duration: 0.3s;
 }
 
 .menu-section ul li a:hover{
@@ -125,7 +136,19 @@ ul li{
   align-items: center;
 }
 
+.hello::before{
+  content: "";
+  display: flex;
+  margin-right: 25px;
+  height: 3px;
+  width: 85px;
+  background: var(--white);
+
+}
+
 #intro h3{
+  display: flex;
+  align-items: center;
   color: var(--white);
 }
 
@@ -141,4 +164,74 @@ ul li{
   margin-right: 25px;
 }
 
+/* ========= protifólio ========= */
 
+#my-portifolio{
+  margin-top: 80px;
+  background-color: var(--dark-100);
+  padding: 80px 0;
+}
+
+#my-portifolio h2{
+  text-align: center;
+}
+
+#my-portifolio h2::after{
+  content: "";
+  display: block;
+  margin: 20px auto 80px auto;
+  height: 5px;
+  width: 10%;
+  background: var(--white);
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 4rem;
+  margin-bottom: 80px;  
+}
+
+.card{
+  padding: 25px 25px 30px 25px;
+  border-radius: 20px;
+  background-color: var(--dark-80);
+  width: 100%;
+  transition-duration: 0.3s;
+}
+
+.card:hover{  
+  background-color: var(--dark-60);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
+}
+
+.img img{
+  max-width: 100%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.card .text h3{
+  margin: 30px 0 15px 0;
+}
+
+.card .text button{  
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card .text button a:hover{  
+  transition-duration: 0.3s;
+}
+
+.card .text button a:hover{  
+  color: var(--magenta);
+}
+
+#my-portifolio .container .full{
+  display: flex;
+  margin: 0 auto 0 auto;
+}

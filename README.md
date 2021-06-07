@@ -9,13 +9,13 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 
 ## Schedule/Cronograma
 
-**Milestone 01 (0%)**
+**Milestone 01 (42%)**
 
 **Description/Descrição:** Develop all the section with HTML + CSS
 
-- [ ] Navbar
-- [ ] Section Intro
-- [ ] Section Portfólio
+- [x] Navbar
+- [x] Section Intro
+- [x] Section Portfólio
 - [ ] Section Missão, Visão e Valores
 - [ ] Section Sobre mim
 - [ ] Section Contato

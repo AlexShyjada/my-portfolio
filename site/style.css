@@ -363,3 +363,42 @@ ul li{
 .ferramentas .img-ferramentas img:hover{
   box-shadow: 0 0 20px rgba(189, 56, 201, 0.3);
 }
+
+.ferramentas .full{
+  display: block;
+  margin: 80px auto 0 auto;
+}
+
+/* ========= ferramentas ========= */
+
+#contact{
+  margin: 200px auto;
+  max-width: 50%;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+.contact{
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ========= footer ========= */
+
+footer{
+  padding: 38px 0;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--dark-100);
+}
+
+footer a{
+  color: var(--magenta);
+  transition: 0.3s;
+}
+
+footer a:hover{
+  color: violet;
+}

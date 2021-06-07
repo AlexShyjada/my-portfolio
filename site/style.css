@@ -357,8 +357,9 @@ ul li{
 
 .ferramentas .img-ferramentas img{
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .ferramentas .img-ferramentas img:hover{
-  box-shadow: 0 0 20px rgba(255, 0, 200, 0.3);
+  box-shadow: 0 0 20px rgba(189, 56, 201, 0.3);
 }

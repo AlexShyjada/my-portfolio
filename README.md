@@ -5,19 +5,20 @@ This project aims to be an portifólio for [Alexandre Shyjada (me)](https://www.
 Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](https://www.linkedin.com/in/alexshyjada/)
 
 ## Team/Equipe
-- **Alexandre Shyjada Sousa:** Front-End Developer / Desenvolvedor Front-End
+- **Alexandre Shyjada Sousa:** Front-End Developer && UI Designer
 
 ## Schedule/Cronograma
 
 **Milestone 01 (42%)**
 
-**Description/Descrição:** Develop all the section with HTML + CSS
+**Description/Descrição:** Develop all the sections with HTML + CSS
 
 - [x] Navbar
 - [x] Section Intro
 - [x] Section Portfólio
-- [ ] Section Missão, Visão e Valores
 - [ ] Section Sobre mim
+- [ ] Section Experiência
+- [ ] Section Minhas ferramentas
 - [ ] Section Contato
 - [ ] Footer
 
@@ -29,8 +30,9 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [ ] Navbar
 - [ ] Section Intro
 - [ ] Section Portfólio
-- [ ] Section Missão, Visão e Valores
 - [ ] Section Sobre mim
+- [ ] Section Experiência
+- [ ] Section Minhas ferramentas
 - [ ] Section Contato
 - [ ] Footer
 
@@ -41,7 +43,8 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [ ] Navbar
 - [ ] Section Intro
 - [ ] Section Portfólio
-- [ ] Section Missão, Visão e Valores
 - [ ] Section Sobre mim
+- [ ] Section Experiência
+- [ ] Section Minhas ferramentas
 - [ ] Section Contato
 - [ ] Footer

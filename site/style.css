@@ -26,7 +26,8 @@ html{
 }
 
 .container{
-  width: 1200px;
+  width: 60%;
+  padding: 0 25px;
   margin: 0 auto;
 }
 
@@ -40,31 +41,58 @@ body{
 h1{
   font-weight: 700;
   font-size: 48px;
-  color: var(--white);
+  color: var(--magenta);
 }
 
 h2{
   font-weight: 700;
   font-size: 36px;
-  color: var(--white);
+  color: var(--magenta);
 }
 
 h3{
   font-weight: 400;
   font-size: 24px;
-  color: var(--white);
+  color: var(--magenta);
 }
 
-a, p{
+a, p, button{
   color: var(--white);
   font-weight: 400;
   font-size: 16px;
 }
 
+/* ========= Buttons ========= */
+
+.full a{
+  font-size: 16;
+  background-color: var(--magenta);
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.full a:hover{
+  background-color: violet;
+}
+
+.stroke a{
+  font-size: 16px;
+  background-color: transparent;
+  padding: 12px 28px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: var(--magenta);
+  border-width: 2px;
+}
+
+.stroke a:hover{
+  background-color: var(--magenta);
+}
+
 /* ========= Header ========= */
 
 header{
-  padding: 28px;
+  padding: 28px 0;
   background-color: var(--dark-80);
   color: var(--white);
 }
@@ -89,3 +117,28 @@ ul li{
 }
 
 /* ========= Intro ========= */
+
+#intro{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#intro h3{
+  color: var(--white);
+}
+
+#intro .text h1{
+  margin: 30px 0 10px 0;
+}
+
+#intro .text .buttons{
+  margin-top: 65px;
+}
+
+.buttons .full{
+  margin-right: 25px;
+}
+
+

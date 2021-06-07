@@ -1,6 +1,6 @@
 ## About this project/sobre o projeto:
 
-This project aims to be an portifólio for [Alexandre Shyjada (Eu)](https://www.linkedin.com/in/alexshyjada/)
+This project aims to be an portifólio for [Alexandre Shyjada (me)](https://www.linkedin.com/in/alexshyjada/)
 
 Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](https://www.linkedin.com/in/alexshyjada/)
 

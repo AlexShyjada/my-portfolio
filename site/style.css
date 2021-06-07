@@ -1,0 +1,91 @@
+/* ========= Root ========= */
+
+:root{
+  --white: #fff;
+  --dark-100: #0F0F1D;
+  --dark-80: #12121F;
+  --dark-60: #232336;
+  --magenta: #BD38C9;
+}
+
+/* ========= Reset ========= */
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body{
+  font-size: 1.6rem;
+  background: var(--dark-80);
+}
+
+/* ========= Titles ========= */
+
+h1{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--white);
+}
+
+h2{
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--white);
+}
+
+h3{
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--white);
+}
+
+a, p{
+  color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* ========= Header ========= */
+
+header{
+  padding: 28px;
+  background-color: var(--dark-80);
+  color: var(--white);
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-section ul li a:hover{
+  color: var(--magenta);
+}
+
+ul{
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 25px;
+}
+
+/* ========= Intro ========= */

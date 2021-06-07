@@ -235,3 +235,49 @@ ul li{
   display: flex;
   margin: 0 auto 0 auto;
 }
+
+/* ========= sobre mim ========= */
+
+#sobre-mim{
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  gap: 135px;
+}
+
+#sobre-mim .text h2{
+  margin-bottom: 20px;
+}
+
+#sobre-mim .text h2::after{
+  content: "";
+  display: block;
+  margin: 20px 0 60px 0;
+  height: 5px;
+  width: 85px;
+  background: var(--white);
+}
+
+#sobre-mim .text h3, p{
+  margin-bottom: 20px;
+}
+
+#sobre-mim .text .buttons{
+  display: flex;
+  gap: 20px;
+}
+
+#sobre-mim .text cite{
+  display: block;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#sobre-mim img{
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: var(--magenta);
+}

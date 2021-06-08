@@ -267,6 +267,18 @@ ul li{
   gap: 20px;
 }
 
+#sobre-mim .text .buttons img{
+  border: none;
+  padding: 1px;
+  border-radius: 20px;
+  background-color: var(--magenta);
+  transition: 0.3s;
+}
+
+#sobre-mim .text .buttons img:hover{
+  background-color: violet;  
+}
+
 #sobre-mim .text cite{
   display: block;
   margin-bottom: 40px;

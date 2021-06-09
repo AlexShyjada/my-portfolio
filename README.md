@@ -9,7 +9,7 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 
 ## Schedule/Cronograma
 
-**Milestone 01 (42%)**
+**Milestone 01 (100%)**
 
 **Description/Descrição:** Develop all the sections with HTML + CSS
 
@@ -17,34 +17,28 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [x] Section Intro
 - [x] Section Portfólio
 - [x] Section Sobre mim
-- [ ] Section Experiência
-- [ ] Section Minhas ferramentas
-- [ ] Section Contato
-- [ ] Footer
+- [x] Section Experiência
+- [x] Section Minhas ferramentas
+- [x] Section Contato
+- [x] Footer
 
 
-**Milestone 02 (0%)**
+**Milestone 02 (50%)**
 
 **Description/Descrição:** implement javascript
 
-- [ ] Navbar
-- [ ] Section Intro
+- [x] Navbar
 - [ ] Section Portfólio
-- [ ] Section Sobre mim
-- [ ] Section Experiência
-- [ ] Section Minhas ferramentas
-- [ ] Section Contato
-- [ ] Footer
 
-**Milestone 03 (0%)**
+**Milestone 03 (50%)**
 
 **Description/Descrição:** responsive layout
 
-- [ ] Navbar
+- [x] Navbar
 - [ ] Section Intro
-- [ ] Section Portfólio
+- [x] Section Portfólio
 - [ ] Section Sobre mim
-- [ ] Section Experiência
+- [x] Section Experiência
 - [ ] Section Minhas ferramentas
 - [ ] Section Contato
-- [ ] Footer
+- [x] Footer

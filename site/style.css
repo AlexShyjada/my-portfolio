@@ -171,6 +171,7 @@ a, p, button{
 
 .buttons .full{
   margin-right: 2.5rem;
+  margin-bottom: 4.5rem;
 }
 
 /* ========= protifólio ========= */
@@ -250,12 +251,16 @@ a, p, button{
 #sobre-mim{
   margin: 8rem auto;
   display: flex;
-  align-items: center;
-  gap: 13.5rem;
+  justify-content: space-between;
+  align-items: center;  
 }
 
 #sobre-mim .text h2{
   margin-bottom: 2rem;
+}
+
+#sobre-mim .text {
+  width: 45%;
 }
 
 #sobre-mim .text h2::after{
@@ -295,12 +300,13 @@ a, p, button{
   color: rgba(255, 255, 255, 0.5);
 }
 
-#sobre-mim img{
+#sobre-mim .img-avatar{
   border-radius: 2rem;
   border-style: solid;
   border-width: 2px;
   border-radius: 3rem;
   border-color: var(--magenta);
+  width: 45%;
 }
 
 /* ========= experience ========= */
@@ -391,7 +397,7 @@ a, p, button{
   margin: 8rem auto 0 auto;
 }
 
-/* ========= ferramentas ========= */
+/* ========= contact ========= */
 
 #contact{
   margin: 20rem auto;
@@ -428,13 +434,22 @@ footer a:hover{
 /* ========= Responsivo ========= */
 
 @media (max-width: 1344px){
+
+  html{
+    font-size: 55%;
+  }
+
   .container{
     width: 1024px;
   }
 
+  #intro img{
+    max-width: 40%;
+  }
+
   #my-portifolio .container .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
     row-gap: 4rem;
     margin-bottom: 8rem;
@@ -443,11 +458,17 @@ footer a:hover{
 
 @media (max-width: 1024px){
 
+  /* ========= Config gerais ========= */
+  
   .container{
     width: 95%;
   }
 
-  /* ========= Header ========= */
+  html{
+    font-size: 50%;
+  }
+
+  /* ========= Header Responsivo ========= */
 
   #menu{
     display: flex;
@@ -535,9 +556,48 @@ footer a:hover{
   .experiencia .cards{
     grid-template-columns: 1fr;    
   }
+
+  /* ========= Intro ========= */
+
+  #intro img{
+    max-width: 40%;
+  }
+
+  /* ========= Intro ========= */
+
+  #my-portifolio .container .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    margin-bottom: 8rem;
+  }
+
+  /* ========= Sobre Mim ========= */
+
+  #sobre-mim{
+    gap: 5rem;
+  }
+
+  /* ========= Contato ========= */
+
+  #contact{   
+    max-width: 100%;
+  }
+  
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
+  #intro img{
+    display: none;
+  }  
+}
+
+@media (max-width: 600px){
+
+  h1{
+    font-size: 4rem;
+  }
 
   #my-portifolio .container .cards{
     display: grid;
@@ -546,10 +606,22 @@ footer a:hover{
     row-gap: 4rem;
     margin-bottom: 8rem;
   }
+
+  #sobre-mim .text{
+    width: 100%;
+  }
+
+  #sobre-mim .img-avatar{
+    display: none;
+  }
   
 }
 
 @media (max-width: 380px){
+
+  html{
+    font-size: 40%;
+  }
 
   .container{
     padding: 1rem;
@@ -557,6 +629,6 @@ footer a:hover{
 
   #header .container img{
     width: 40%;
-  }
+  }  
   
 }

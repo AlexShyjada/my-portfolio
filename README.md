@@ -30,14 +30,14 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [x] Navbar
 - [ ] Section Portfólio
 
-**Milestone 03 (50%)**
+**Milestone 03 (80%)**
 
 **Description/Descrição:** responsive layout
 
 - [x] Navbar
-- [ ] Section Intro
+- [x] Section Intro
 - [x] Section Portfólio
-- [ ] Section Sobre mim
+- [x] Section Sobre mim
 - [x] Section Experiência
 - [ ] Section Minhas ferramentas
 - [ ] Section Contato

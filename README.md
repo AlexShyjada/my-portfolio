@@ -1,8 +1,8 @@
 ## About this project/sobre o projeto:
 
-This project aims to be an portifólio for [Alexandre Shyjada (me)](https://www.linkedin.com/in/alexshyjada/)
+This project aims to be an portfolio for [Alexandre Shyjada (me)](https://www.linkedin.com/in/alexshyjada/)
 
-Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](https://www.linkedin.com/in/alexshyjada/)
+Esse projeto tem como objetivo ser um portfolio para [Alexandre Shyjada (Eu)](https://www.linkedin.com/in/alexshyjada/)
 
 ## Team/Equipe
 - **Alexandre Shyjada Sousa:** Front-End Developer && UI Designer
@@ -23,12 +23,11 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [x] Footer
 
 
-**Milestone 02 (50%)**
+**Milestone 02 (100%)**
 
 **Description/Descrição:** implement javascript
 
 - [x] Navbar
-- [ ] Section Portfólio
 
 **Milestone 03 (80%)**
 
@@ -40,5 +39,5 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [x] Section Sobre mim
 - [x] Section Experiência
 - [x] Section Minhas ferramentas
-- [ ] Section Contato
+- [x] Section Contato
 - [x] Footer

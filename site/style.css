@@ -70,6 +70,9 @@ a, p, button{
 /* ========= Buttons ========= */
 
 .full a{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: 1.6rem;
   background-color: var(--magenta);
   padding: 1.2rem 2.8rem;
@@ -79,21 +82,6 @@ a, p, button{
 
 .full a:hover{
   background-color: violet;
-}
-
-.stroke a{
-  font-size: 1.6rem;
-  background-color: transparent;
-  padding: 1.2rem 2.8rem;
-  border-style: solid;
-  border-radius: 3.0rem;
-  border-color: var(--magenta);
-  border-width: 0.2rem;
-  transition-duration: 0.3s;
-}
-
-.stroke a:hover{
-  background-color: var(--magenta);
 }
 
 /* ========= Header ========= */
@@ -167,11 +155,6 @@ a, p, button{
 
 #intro .text .buttons{
   margin-top: 6.5rem;
-}
-
-.buttons .full{
-  margin-right: 2.5rem;
-  margin-bottom: 4.5rem;
 }
 
 /* ========= protifólio ========= */
@@ -566,12 +549,12 @@ footer a:hover{
 
   #nav.active #hamburger::after{
     transform: rotate(-135deg);
-    top: -7px;
+    top: -6px;
   }  
 
   #intro img{
     max-width: 40%;
-  }  
+  }
 
   #my-portifolio .container .cards{
     display: grid;
@@ -599,6 +582,10 @@ footer a:hover{
 
   html{
     font-size: 50%;
+  }
+
+  #intro{
+    margin: 18rem auto 14rem auto;
   }
 
   #intro img{
@@ -668,7 +655,7 @@ footer a:hover{
     color: var(--magenta);
   }
   
-  a, p, button{
+  a, p, button, footer{
     color: var(--white);
     font-weight: 400;
     font-size: 1.4rem;
@@ -700,6 +687,10 @@ footer a:hover{
     column-gap: 2rem;
     row-gap: 4rem;
     margin-bottom: 8rem;
+  }
+
+  .experiencia img{
+    width: 8rem;
   }
 
   .contact{

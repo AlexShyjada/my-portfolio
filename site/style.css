@@ -172,7 +172,7 @@ a, p, button{
   content: "";
   display: block;
   margin: 2rem auto 8rem auto;
-  height: 5px;
+  height: 4px;
   width: 13.5rem;
   background: var(--white);
 }
@@ -249,7 +249,7 @@ a, p, button{
   content: "";
   display: block;
   margin: 2rem 0 6rem 0;
-  height: 5px;
+  height: 4px;
   width: 13.5rem;
   background: var(--white);
 }
@@ -306,7 +306,7 @@ a, p, button{
   content: "";
   display: block;
   margin: 2rem auto 6rem auto;
-  height: 5px;
+  height: 4px;
   width: 13.5rem;
   background: var(--white);
 }
@@ -354,7 +354,7 @@ a, p, button{
   content: "";
   display: block;
   margin: 2rem auto 6rem auto;
-  height: 0.5rem;
+  height: 4px;
   width: 13.5rem;
   background: var(--white);
 }
@@ -425,12 +425,12 @@ footer{
   background-color: var(--dark-100);
 }
 
-footer a{
+.footer-link{
   color: var(--magenta);
   transition: 0.3s;
 }
 
-footer a:hover{
+.footer-link:hover{
   color: violet;
 }
 
@@ -656,8 +656,6 @@ footer a:hover{
   }
   
   a, p, button, footer{
-    color: var(--white);
-    font-weight: 400;
     font-size: 1.4rem;
   }
   
@@ -667,7 +665,18 @@ footer a:hover{
   }  
 
   #sobre-mim .text{
+    text-align: center;
     width: 100%;
+  }
+
+  #sobre-mim .text h2::after{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buttons{
+    justify-content: center;
   }
 
   #sobre-mim .img-avatar{
@@ -681,6 +690,11 @@ footer a:hover{
 }
 
 @media (max-width: 450px){
+
+  .full a img{
+    height: 1.8rem;
+  }
+
   #my-portifolio .container .cards{
     display: grid;
     grid-template-columns: 1fr;

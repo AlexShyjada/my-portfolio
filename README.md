@@ -29,7 +29,7 @@ Esse projeto tem como objetivo ser um portfolio para [Alexandre Shyjada (Eu)](ht
 
 - [x] Navbar
 
-**Milestone 03 (80%)**
+**Milestone 03 (100%)**
 
 **Description/Descrição:** responsive layout
 

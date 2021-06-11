@@ -39,6 +39,6 @@ Esse projeto tem como objetivo ser um portofólio para [Alexandre Shyjada (Eu)](
 - [x] Section Portfólio
 - [x] Section Sobre mim
 - [x] Section Experiência
-- [ ] Section Minhas ferramentas
+- [x] Section Minhas ferramentas
 - [ ] Section Contato
 - [x] Footer

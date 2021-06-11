@@ -140,7 +140,7 @@ a, p, button{
 /* ========= Intro ========= */
 
 #intro{
-  margin-top: 14rem;
+  margin: 14rem auto 10rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -177,7 +177,6 @@ a, p, button{
 /* ========= protifólio ========= */
 
 #my-portifolio{
-  margin-top: 8rem;
   background-color: var(--dark-100);
   padding: 8rem 0;
 }
@@ -436,7 +435,7 @@ footer a:hover{
 @media (max-width: 1344px){
 
   html{
-    font-size: 55%;
+    font-size: 57%;
   }
 
   .container{
@@ -462,10 +461,6 @@ footer a:hover{
   
   .container{
     width: 95%;
-  }
-
-  html{
-    font-size: 50%;
   }
 
   /* ========= Header Responsivo ========= */
@@ -590,7 +585,35 @@ footer a:hover{
 @media (max-width: 900px){
   #intro img{
     display: none;
-  }  
+  }
+
+  #intro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #intro .text{
+    text-align: center;
+    justify-content: center;
+  }
+
+  #intro .text h3{
+    display: block;
+  }
+
+  .hello::before{
+    content: none;
+  }
+
+  .hello::after{
+    content: "";
+    display: block;
+    margin: 1rem auto;
+    height: 3px;
+    width: 8.5rem;
+    background: var(--white);
+  }
 }
 
 @media (max-width: 600px){

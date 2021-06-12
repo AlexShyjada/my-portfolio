@@ -402,7 +402,8 @@ a, p, button{
 }
 
 .email{
-  display: flex;  
+  display: flex;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;  
 }

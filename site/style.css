@@ -179,7 +179,7 @@ a, p, button{
 
 #my-portifolio .container .cards{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 2rem;
   row-gap: 4rem;
   margin-bottom: 8rem;
@@ -658,6 +658,11 @@ footer{
   
   a, p, button, footer{
     font-size: 1.4rem;
+  }
+
+  #my-portifolio .container .cards .card:hover{  
+    background-color: var(--dark-80);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0);
   }
   
   .tag{

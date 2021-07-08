@@ -185,7 +185,7 @@ a, p, button{
   margin-bottom: 8rem;
 }
 
-#my-portifolio .container .cards .card{
+.cardPortfolio{
   padding: 2.5rem 2.5rem 3rem 2.5rem;
   border-radius: 2rem;
   background-color: var(--dark-80);
@@ -193,33 +193,33 @@ a, p, button{
   transition-duration: 0.3s;
 }
 
-#my-portifolio .container .cards .card:hover{  
+.cardPortfolio:hover{  
   background-color: var(--dark-60);
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.30);
 }
 
-#my-portifolio .container .cards .card .img img{
+.cardPortfolio .img img{
   width: 100%;
   border-radius: 2rem;
   margin-bottom: 3rem;
 }
 
-#my-portifolio .container .cards .card .text h3{
+.cardPortfolio .text h3{
   margin: 3rem 0 1.5rem 0;
 }
 
-#my-portifolio .container .cards .card .text button{  
+.cardPortfolio .text button{  
   margin-top: 3rem;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-#my-portifolio .container .cards .card .text button a{  
+.cardPortfolio .text button a{  
   transition-duration: 0.3s;
 }
 
-#my-portifolio .container .cards .card .text button a:hover{  
+.cardPortfolio .text button a:hover{  
   color: var(--magenta);
 }
 

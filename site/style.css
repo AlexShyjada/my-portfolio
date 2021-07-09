@@ -160,7 +160,7 @@ a, p, button{
   margin: 3rem 0 1rem 0;
 }
 
-#intro .text .buttons{
+.text .full{
   margin-top: 4.5rem;
 }
 
@@ -621,6 +621,11 @@ footer{
 
   #intro .text h3{
     display: block;
+  }
+
+  .text .full{
+    margin: 4rem auto 8rem auto ;
+    text-align: center;
   }
 
   .hello::before{

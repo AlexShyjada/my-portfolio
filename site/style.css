@@ -6,6 +6,7 @@
   --dark-80: #12121F;
   --dark-60: #232336;
   --magenta: #BD38C9;
+  scrollbar-width: 0.1rem;
 }
 
 /* ========= page config ========= */
@@ -23,6 +24,8 @@
 
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
+
 }
 
 .container{
@@ -69,18 +72,22 @@ a, p, button{
 
 /* ========= Buttons ========= */
 
-.full a{
+.full{
   display: flex;
   align-items: center;
-  gap: 1rem;
-  font-size: 1.6rem;
   background-color: var(--magenta);
   padding: 1.2rem 2.8rem;
   border-radius: 30px;
   transition-duration: 0.3s;
 }
 
-.full a:hover{
+.full a{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.full:hover{
   background-color: violet;
 }
 
@@ -399,6 +406,14 @@ a, p, button{
   justify-content: center;  
   text-align: center;
   margin-top: 2rem;
+}
+
+.contact p a:hover{
+  transition: 0.3s;
+}
+
+.contact p a:hover{
+  color: var(--magenta);
 }
 
 .email{

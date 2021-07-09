@@ -88,16 +88,38 @@ const DOM = {
     `
     return html
   },
+  domCleaner(){
+    DOM.cardsContainer.innerHTML = ""
+  },
   loudCards(){
-    for(let i = 0; i < cardsList.length; i++){
+    for(let i = 0; i < 3; i++){
       DOM.addCardsToList(cardsList[i])
     }
+  },
+  loudMoreCards(){
+    let showAllCards = false
+    const btnShowMore = document.querySelector('#my-portifolio .container button.full')
+    btnShowMore.addEventListener('click', function(){
+      if(showAllCards == false){
+        DOM.domCleaner()
+        cardsList.forEach(DOM.addCardsToList)
+        btnShowMore.innerHTML = "Exibir menos projetos"
+        showAllCards = true        
+      }else{
+        DOM.domCleaner()
+        DOM.loudCards()
+        btnShowMore.innerHTML = "Ver todos os projetos"
+        showAllCards = false
+      }
+    })
   }
+
 }
 
 const App = {
   init(){
     DOM.loudCards()
+    DOM.loudMoreCards()
   }
 }
 

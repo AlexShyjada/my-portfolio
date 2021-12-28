@@ -12,9 +12,9 @@ Esse projeto é literalmente o meu primeiro projeto completo e funcional e teve 
 
 ## Tecnologias
 
-- [HTML](https://bradfrost.com/)
-- [CSS](https://nuxtjs.org/)
-- [Javascript](https://sass-lang.com/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
 
 ---
 
